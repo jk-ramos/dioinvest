@@ -1,4 +1,4 @@
-# Documentação FAQ - Sistema Imobiliário
+# Documentação FAQ - Sistema Imobiliário Bortone
 
 ## Visão Geral
 
@@ -303,77 +303,6 @@ Exemplo de Resposta:
    - Selecione a categoria apropriada
    - Salve a pergunta
 
-### Como Procurar por uma Pergunta
-
-#### Método 1: Busca por Texto
-
-1. **Barra de Busca**
-   - Localize a caixa de busca no topo da página FAQ
-   - Digite palavras-chave relacionadas à sua dúvida
-   - Pressione Enter ou clique no ícone de busca
-
-2. **Resultados**
-   - As perguntas correspondentes aparecerão destacadas
-   - Clique na pergunta para expandir a resposta completa
-
-#### Método 2: Filtro por Categoria
-
-1. **Menu de Categorias**
-   - Use os botões de categoria na lateral ou topo
-   - Categorias disponíveis:
-     - **Vendas**: Processo de compra, documentação
-     - **Locação**: Aluguel, contratos, fiador
-     - **Financiamento**: Empréstimos, FGTS, consórcios
-     - **Documentação**: Papéis necessários, cartório
-     - **Visitas**: Agendamento, horários, preparo
-     - **Geral**: Outras dúvidas
-
-2. **Visualização**
-   - Clique na categoria desejada
-   - Apenas perguntas dessa categoria serão exibidas
-
-#### Método 3: Navegação por Lista
-
-1. **Lista Completa**
-   - Todas as perguntas são exibidas por padrão
-   - Use a paginação no final da página
-   - Perguntas são ordenadas por relevância
-
-2. **Expandir/Recolher**
-   - Clique na pergunta para ver a resposta
-   - Clique novamente para recolher
-
-### Dicas de Uso
-
-#### Para Busca Eficiente:
-
-- Use palavras-chave específicas (ex: "ITBI", "escritura", "FGTS")
-- Combine termos relacionados (ex: "financiamento CEF")
-- Teste sinônimos se não encontrar resultados
-
-#### Para Melhor Experiência:
-
-- Comece sempre pela busca antes de fazer nova pergunta
-- Marque perguntas úteis como favoritas (se disponível)
-- Use categorias para navegar por assuntos relacionados
-
-### Funcionalidades Especiais
-
-#### Perguntas Relacionadas
-
-- Após visualizar uma resposta, veja sugestões de perguntas similares
-- Links para tópicos relacionados aparecem no final de cada resposta
-
-#### Feedback
-
-- Avalie se a resposta foi útil usando os botões 👍/👎
-- Deixe comentários para melhorar o conteúdo (se disponível)
-
-#### Compartilhamento
-
-- Use o botão de compartilhar para enviar links específicos
-- URLs diretas para cada pergunta facilitam referências
-
 ## Estrutura de Arquivos
 
 ```
@@ -396,11 +325,3 @@ front-end/src/
 │   └── FaqCategories.js    # Filtro de categorias
 └── services/
     └── faq-service.js      # Serviços de API
-```
-
-## Próximos Passos
-
-1. Implementar sistema de avaliação das respostas
-2. Adicionar funcionalidade de sugestão de perguntas
-3. Criar dashboard de estatísticas para administradores
-4. Implementar notificações para novas perguntas
